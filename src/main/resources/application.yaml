@@ -1,0 +1,16 @@
+spring:
+
+  application:
+    name: RestfullAPI
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/user
+    username: postgres
+    password: 200356
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+limit:
+  age: 18
